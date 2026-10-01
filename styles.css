@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto;
+}
+
+
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 40px;
+}
+
+.header_logo_and_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    font-size: 18px;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero_content {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding-bottom: 48px;
+    gap: 40px;
+}
+
+.hero_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #777B7E;
+    padding: 48px;
+    margin-top: 32.16px;
+}
+
+button {
+    background-color: #3882F6;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.content1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content1_title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+  align-items: center;
+}
+
+.content1_images {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin: auto;
+}
+
+.img{
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 3px solid;
+  border-color: #3882F6;
+  border-radius: 8px;
+  margin: auto;
+}
+
+.item{
+  display: flex;
+  flex-direction: column; /* NEW */
+  justify-content: center;
+  vertical-align: top;
+  text-align: center;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 200px;
+}
+
+.content2 {
+    display: flex;
+}
+
+.content3 {
+    display: flex;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+}
