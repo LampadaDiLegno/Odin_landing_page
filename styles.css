@@ -131,13 +131,70 @@ button {
 
 .content2 {
     display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.insp_quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+#signature {
+    margin-left: auto;
+    font-weight: 400;
 }
 
 .content3 {
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content3_container {
+    display: flex;
+    background-color: #3882F6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border-radius: 8px;
+    align-items: center;
+    gap: 128px;
+}
+
+h5 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.content3_title_and_subtext {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    padding: 0;
+}
+
+#content3_button {
+    border-color: #F9FAF8;
+    border: 3px solid;
 }
 
 .footer {
     display: flex;
-    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 48px;
+    color: #F9FAF8;
 }
